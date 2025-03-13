@@ -1,7 +1,7 @@
 # image-gen-huggingface-example
 
 ## Prompt to image generation using Huggingface
-- Requirements :
+Requirements :
 -   Good GPU (I'm using ASUS Dual NVIDIA GeForce RTX 3060 V2 OC w/ 12GB),
 -   Huggingface access
 -   Pytorch
