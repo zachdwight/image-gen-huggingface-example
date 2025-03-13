@@ -12,3 +12,5 @@ prompt = "benjamin franklin riding a bull at a county fair in Texas with a crowd
 
 
 ![benfranklinbull](https://github.com/user-attachments/assets/acb11a82-95a6-4cbd-a09b-704f415a34f0)
+
+Note: Good luck fine tuning those prompts/weights/etc!
