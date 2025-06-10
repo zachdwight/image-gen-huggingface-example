@@ -19,7 +19,7 @@ pipe = DiffusionPipeline.from_pretrained("black-forest-labs/FLUX.1-dev",use_safe
 # Depending on the model, this may or may not be necessary.  The FLUX model however is pretty big.
 pipe.enable_sequential_cpu_offload()
 
-#create a batch of potential pics to use
+#create a batch of potential pics to use, a batch of 7 is good luck
 for i in range(1, 8):
     prompt = "benjamin franklin riding a bull at a county fair in Texas with a crowd cheering him on"
     image = pipe(prompt,height=1080,width=1080).images[0]
