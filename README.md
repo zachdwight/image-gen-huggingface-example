@@ -62,8 +62,10 @@ The script will generate 7 images based on the specified prompt and save them as
 * **Hugging Face Access**: If you encounter issues downloading the model, ensure you have correctly set up your Hugging Face token and have accepted the model's terms of service if applicable.
 * **CUDA Out of Memory**: If you still experience CUDA memory errors even with `enable_sequential_cpu_offload()`, try uncommenting the `os.environ["PYTORCH_CUDA_ALLOC_CONF"]` line and experiment with the `max_split_size_mb` value. You might also consider using a smaller model.
 * **Slow Generation**: Generating high-resolution images with large models can be time-consuming. This is expected. `enable_sequential_cpu_offload()` can further increase generation time due to CPU-GPU data transfers.
+---
 
 EXAMPLE
+
 prompt = "benjamin franklin riding a bull at a county fair in Texas with a crowd cheering him on"
 
 
