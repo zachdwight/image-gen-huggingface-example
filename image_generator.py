@@ -23,5 +23,5 @@ pipe.enable_sequential_cpu_offload()
 for i in range(1, 8):
     prompt = "benjamin franklin riding a bull at a county fair in Texas with a crowd cheering him on"
     image = pipe(prompt,height=1080,width=1080).images[0]
-    name = "spy_with_bird_"+str(i)+".png"
+    name = "ben_franklin_"+str(i)+".png"
     image.save(name)
