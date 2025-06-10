@@ -36,7 +36,7 @@ Before running the script, ensure you have the following installed:
     ```
     (Replace `your_script_name.py` with the actual name of your Python file.)
 
-The script will generate 7 images based on the specified prompt and save them as `spy_with_bird_1.png` to `spy_with_bird_7.png` in the same directory.
+The script will generate 7 images based on the specified prompt and save them as `ben_franklin_1.png` to `ben_franklin_7.png` in the same directory.
 
 ---
 ## Code Details
